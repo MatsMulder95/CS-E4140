@@ -4,51 +4,51 @@
   xmlns="urn:mpeg:DASH:schema:MPD:2011"
   xsi:schemaLocation="urn:mpeg:DASH:schema:MPD:2011"
   type="static"
-  mediaPresentationDuration="PT2.76S"
+  mediaPresentationDuration="PT11.033S"
   minBufferTime="PT1S"
   profiles="urn:webm:dash:profile:webm-on-demand:2012">
-<Period id="0" start="PT0S" duration="PT2.76S" >
-<AdaptationSet id="0" mimeType="video/webm" codecs="vp9" lang="eng" bitstreamSwitching="true" subsegmentAlignment="true" subsegmentStartsWithSAP="0">
-<Representation id="0" bandwidth="0" width="160" height="190">
+<Period id="0" start="PT0S" duration="PT11.033S" >
+<AdaptationSet id="0" mimeType="video/webm" codecs="vp9" lang="eng" bitstreamSwitching="true" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+<Representation id="0" bandwidth="182141" width="160" height="190">
 <BaseURL>video_160x90_250k.webm</BaseURL>
 <SegmentBase
-  indexRange="82354-82382">
+  indexRange="276169-276216">
 <Initialization
-  range="0-834" />
+  range="0-796" />
 </SegmentBase>
 </Representation>
-<Representation id="1" bandwidth="0" width="320" height="180">
+<Representation id="1" bandwidth="359591" width="320" height="180">
 <BaseURL>video_320x180_500k.webm</BaseURL>
 <SegmentBase
-  indexRange="155582-155610">
+  indexRange="544281-544328">
 <Initialization
-  range="0-835" />
+  range="0-797" />
 </SegmentBase>
 </Representation>
-<Representation id="2" bandwidth="0" width="640" height="360">
+<Representation id="2" bandwidth="589458" width="640" height="360">
 <BaseURL>video_640x360_750k.webm</BaseURL>
 <SegmentBase
-  indexRange="251157-251185">
+  indexRange="891072-891119">
 <Initialization
-  range="0-836" />
+  range="0-798" />
 </SegmentBase>
 </Representation>
-<Representation id="3" bandwidth="0" width="1280" height="720">
+<Representation id="3" bandwidth="1235057" width="1280" height="720">
 <BaseURL>video_1280x720_1500k.webm</BaseURL>
 <SegmentBase
-  indexRange="483027-483055">
+  indexRange="1859778-1859825">
 <Initialization
-  range="0-836" />
+  range="0-798" />
 </SegmentBase>
 </Representation>
 </AdaptationSet>
-<AdaptationSet id="1" mimeType="audio/webm" codecs="vorbis" lang="eng" audioSamplingRate="48000" bitstreamSwitching="true" subsegmentAlignment="true" subsegmentStartsWithSAP="0">
-<Representation id="4" bandwidth="0">
+<AdaptationSet id="1" mimeType="audio/webm" codecs="vorbis" lang="eng" audioSamplingRate="48000" bitstreamSwitching="true" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+<Representation id="4" bandwidth="78100">
 <BaseURL>my_audio.webm</BaseURL>
 <SegmentBase
-  indexRange="45632-45660">
+  indexRange="123275-123340">
 <Initialization
-  range="0-5090" />
+  range="0-5065" />
 </SegmentBase>
 </Representation>
 </AdaptationSet>
