@@ -4,49 +4,49 @@
   xmlns="urn:mpeg:DASH:schema:MPD:2011"
   xsi:schemaLocation="urn:mpeg:DASH:schema:MPD:2011"
   type="static"
-  mediaPresentationDuration="PT11.033S"
+  mediaPresentationDuration="PT157.912S"
   minBufferTime="PT1S"
   profiles="urn:webm:dash:profile:webm-on-demand:2012">
-<Period id="0" start="PT0S" duration="PT11.033S" >
+<Period id="0" start="PT0S" duration="PT157.912S" >
 <AdaptationSet id="0" mimeType="video/webm" codecs="vp9" lang="eng" bitstreamSwitching="true" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
-<Representation id="0" bandwidth="182141" width="160" height="190">
+<Representation id="0" bandwidth="264594" width="160" height="190">
 <BaseURL>video_160x90_250k.webm</BaseURL>
 <SegmentBase
-  indexRange="276169-276216">
+  indexRange="4171699-4172217">
 <Initialization
-  range="0-796" />
+  range="0-805" />
 </SegmentBase>
 </Representation>
-<Representation id="1" bandwidth="359591" width="320" height="180">
+<Representation id="1" bandwidth="609584" width="320" height="180">
 <BaseURL>video_320x180_500k.webm</BaseURL>
 <SegmentBase
-  indexRange="544281-544328">
+  indexRange="8256415-8256933">
 <Initialization
   range="0-797" />
 </SegmentBase>
 </Representation>
-<Representation id="2" bandwidth="589458" width="640" height="360">
+<Representation id="2" bandwidth="1052235" width="640" height="360">
 <BaseURL>video_640x360_750k.webm</BaseURL>
 <SegmentBase
-  indexRange="891072-891119">
+  indexRange="13782517-13783035">
 <Initialization
   range="0-798" />
 </SegmentBase>
 </Representation>
-<Representation id="3" bandwidth="1235057" width="1280" height="720">
+<Representation id="3" bandwidth="1923514" width="1280" height="720">
 <BaseURL>video_1280x720_1500k.webm</BaseURL>
 <SegmentBase
-  indexRange="1859778-1859825">
+  indexRange="26932400-26932929">
 <Initialization
   range="0-798" />
 </SegmentBase>
 </Representation>
 </AdaptationSet>
 <AdaptationSet id="1" mimeType="audio/webm" codecs="vorbis" lang="eng" audioSamplingRate="48000" bitstreamSwitching="true" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
-<Representation id="4" bandwidth="78100">
+<Representation id="4" bandwidth="134303">
 <BaseURL>my_audio.webm</BaseURL>
 <SegmentBase
-  indexRange="123275-123340">
+  indexRange="2453544-2454179">
 <Initialization
   range="0-5065" />
 </SegmentBase>
